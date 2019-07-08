@@ -1,0 +1,290 @@
+body {
+    background-color: #f5f5f5;
+
+
+
+    font-family: 'Raleway', sans-serif;
+
+    color: #333333;
+}
+
+body.dark {
+    background-color: #141d26;
+    color: #ffffff;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.padding-10 {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+}
+
+.padding-10:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100%;
+}
+
+div.dark {
+    background-color: #243447;
+    background-color: rgba(70, 70, 70, 0.7);
+    color: aliceblue;
+    height: 100%;
+
+}
+
+div.dark:hover {
+    background-color: #243447;
+    background-color: rgba(70, 70, 70, 0.9);
+    color: aliceblue;
+    height: 100%;
+
+}
+
+div.light {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+
+}
+
+div.light:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100%;
+
+}
+
+
+.side,
+.main {
+
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    position: relative;
+    min-height: 1px;
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+h5.tittle {
+    font-size: 18px;
+    padding: 20px;
+    margin: 0px;
+
+    letter-spacing: 1px;
+    border-bottom: 1px solid #e6e6e6;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+
+}
+
+.personal-info {
+    padding: 15px;
+    border-bottom: 1px solid #e6e6e6;
+    margin: 0px;
+}
+
+.personal-info li p {
+    margin: 0px;
+    line-height: 30px;
+}
+
+.personal-info li span {
+    width: 50%;
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p {
+
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-rendering: optimizeLegibility;
+    text-align: justify;
+}
+
+.bor-btm {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.padding-25 {
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.social-icon li a {
+
+    border: 1px solid #cdcdcd;
+    height: 50px;
+    width: 50px;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    line-height: 48px;
+    margin: 0px;
+    margin-right: 8px;
+
+}
+
+.social-icon li {
+    margin: 0px;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+.progress {
+    margin: 0px;
+    height: 10px;
+    margin-bottom: 10px;
+}
+
+.skills {}
+
+.skill {
+    font-weight: bolder;
+    text-transform: uppercase;
+    display: block;
+
+}
+
+p {
+    margin: 0px;
+}
+
+
+.contain {
+    padding: 20px;
+    padding-bottom: 0px;
+
+}
+
+.date {
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    width: 130px;
+}
+
+h6 {
+    margin-top: 0px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.compagny {
+    font-style: italic
+}
+
+.job {
+    margin-bottom: 15px;
+}
+
+.space {
+    margin: 5px;
+}
+
+
+
+a:link {
+    color: #dc3545;
+}
+
+/* visited link */
+a:visited {
+    color: #dc3545;
+}
+
+/* mouse over link */
+a:hover {
+    color: #dc3545;
+}
+
+/* selected link */
+a:active {
+    color: #dc3545;
+}
+
+footer,
+header {
+    background-color: #dc3545
+}
+
+.white {
+    color: aliceblue
+}
+
+h4 {
+    text-align: center;
+    padding-top: 15px;
+    color: aliceblue
+}
+
+
+@page {
+    width: 210mm;
+    height: 297mm;
+    margin: 0;
+    background-color: white;
+}
+
+@media print {
+    .dont-break {
+        page-break-inside: avoid;
+    }
+
+    html,
+    body {
+        width: 100vh;
+        margin: 0px auto;
+        top: 0px;
+        bottom: 0px;
+        width: auto;
+        height: 100vh;
+        background-color: white;
+
+    }
+
+    /* ... the rest of the rules ... */
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#pixie {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
