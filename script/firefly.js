@@ -14,7 +14,7 @@ $(document).ready(function () {
     canvas = document.getElementById('pixie');
     $(canvas).attr('width', WIDTH).attr('height', HEIGHT);
     con = canvas.getContext('2d');
-    for (var i = 0; i < 1000; i++) {
+    for (var i = 0; i < 100; i++) {
         pxs[i] = new Circle();
         pxs[i].reset();
     }
@@ -74,9 +74,9 @@ function Circle() {
         con.closePath();
         var cr = this.r * newo;
         g = con.createRadialGradient(this.x, this.y, 0, this.x, this.y, (cr <= 0 ? 1 : cr));
-        g.addColorStop(0.0, 'rgba(238,180,28,' + newo + ')');
-        g.addColorStop(this.stop, 'rgba(238,180,28,' + (newo * .2) + ')');
-        g.addColorStop(1.0, 'rgba(238,180,28,0)');
+        g.addColorStop(0.0, 'rgba(238,250,210,' + newo + ')');
+        g.addColorStop(this.stop, 'rgba(238,250,210,' + (newo * .2) + ')');
+        g.addColorStop(1.0, 'rgba(238,250,210,0)');
         con.fillStyle = g;
         con.fill();
     }

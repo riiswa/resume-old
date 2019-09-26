@@ -20,12 +20,12 @@ body.dark {
 }
 
 .padding-10 {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255);
     height: 100%;
 }
 
 .padding-10:hover {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255);
     height: 100%;
 }
 
@@ -103,7 +103,7 @@ ul {
 }
 
 .personal-info li span {
-    width: 50%;
+    width: 40%;
     float: left;
     text-transform: uppercase;
     font-weight: bold;
@@ -111,7 +111,7 @@ ul {
 
 p {
 
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 0.5px;
     text-rendering: optimizeLegibility;
     text-align: justify;
@@ -149,7 +149,7 @@ img {
     width: 100%;
     height: auto;
     background-color: rgba(255, 255, 255, 0.05);
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
 }
 
 
@@ -164,8 +164,6 @@ img {
 .skill {
     font-weight: bolder;
     text-transform: uppercase;
-    display: block;
-
 }
 
 p {
@@ -271,6 +269,10 @@ h4 {
         background-color: white;
 
     }
+    
+    a {
+        text-decoration: none;
+    }
 
     /* ... the rest of the rules ... */
 }
@@ -289,4 +291,12 @@ h4 {
 .space-10 {
     height: 20px;
     width: 100%;
+}
+
+#career {
+    font-size: 102%
+}
+
+.side h5 {
+    text-align: center;
 }
