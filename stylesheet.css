@@ -246,6 +246,8 @@ h4 {
 }
 
 
+
+
 @page {
     width: 210mm;
     height: 297mm;
@@ -268,8 +270,14 @@ h4 {
         width: auto;
         height: 100vh;
         background-color: white;
+        padding: 0px;
 
     }
+    
+    .container {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
     
     a {
         text-decoration: none;
