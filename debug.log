@@ -1,0 +1,2 @@
+[1012/105333.981:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[1012/105333.984:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Waris\AppData\Roaming\Brackets\live-dev-profile\Crashpad\attachments\81e11197-f064-4c67-885a-f6cf2086c97f: Le chemin d’accès spécifié est introuvable. (0x3)
